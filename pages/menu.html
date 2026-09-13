@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Menu | Hamdy Ice</title>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Pacifico&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Menu CSS -->
+
+   <link rel="stylesheet" href="../menu.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         MENU PAGE
+    ========================== -->
+
+
+    <header class="menu-header">
+
+        <a href="../index.html" class="back-home">
+
+            ← الرئيسية
+
+        </a>
+
+
+        <div class="menu-logo">
+
+            <img
+                src="../images/logo.png"
+                alt="Hamdy Ice"
+            >
+
+            <div>
+
+                <span>Hamdy</span>
+
+                <strong>Ice</strong>
+
+                <small>Ice Cream for all</small>
+
+            </div>
+
+        </div>
+
+
+        <span class="menu-label">
+
+            OUR MENU
+
+        </span>
+
+    </header>
+
+
+    <main>
+
+
+        <!-- HERO OF MENU -->
+
+        <section class="menu-hero">
+
+            <span>
+                DISCOVER YOUR FLAVOR
+            </span>
+
+            <h1>
+
+                المنيو بتاعنا.
+
+                <br>
+
+                <strong>
+                    اختار مزاجك.
+                </strong>
+
+            </h1>
+
+            <p>
+
+                من الكلاسيك للبريميوم...
+                كل نكهة معمولة بحب.
+
+            </p>
+
+        </section>
+
+
+        <!-- CATEGORIES -->
+
+        <section class="menu-content">
+
+            <div class="categories">
+
+    <button class="active">
+        الكل
+    </button>
+
+    <button>
+        آيس كريم عادي
+    </button>
+
+    <button>
+        زبادي
+    </button>
+
+    <button>
+        Premium
+    </button>
+
+    <button>
+        سوفت
+    </button>
+
+    <button>
+        مكسرات
+    </button>
+
+    <button>
+        إضافات
+    </button>
+
+</div>
+
+            <!-- PRODUCTS -->
+
+            <div class="products">
+
+
+                <!-- PRODUCT -->
+
+                <article
+    class="product-card"
+    data-category="آيس كريم عادي"
+>
+
+                    <div class="product-image">
+
+                        <img
+                            src="../images/hero/f.png"
+                            alt="فراولة"
+                        >
+
+                    </div>
+
+                    
+                    <div class="product-info">
+
+                        <span>
+                            STRAWBERRY
+                        </span>
+
+                        <h2>
+                            فراولة
+                        </h2>
+
+                        <strong>
+                            35 <small>EGP</small>
+                        </strong>
+
+                    </div>
+
+                </article>
+
+
+                <article
+    class="product-card"
+    data-category="آيس كريم عادي"
+>
+
+                    <div class="product-image">
+
+                        <img
+                            src="../images/hero/m.png"
+                            alt="مانجا"
+                        >
+
+                    </div>
+
+
+                    <div class="product-info">
+
+                        <span>
+                            MANGO
+                        </span>
+
+                        <h2>
+                            مانجا
+                        </h2>
+
+                        <strong>
+                            35 <small>EGP</small>
+                        </strong>
+
+                    </div>
+
+                </article>
+
+
+                <article
+    class="product-card"
+    data-category="مكسرات"
+>
+
+                    <div class="product-image">
+
+                        <img
+                            src="../images/hero/p.png"
+                            alt="بيستاشيو"
+                        >
+
+                    </div>
+
+
+                    <div class="product-info">
+
+                        <span>
+                            PISTACHIO
+                        </span>
+
+                        <h2>
+                            بيستاشيو
+                        </h2>
+
+                        <strong>
+                            50 <small>EGP</small>
+                        </strong>
+
+                    </div>
+
+                </article>
+
+
+                <article
+    class="product-card"
+    data-category="آيس كريم عادي"
+>
+
+                    <div class="product-image">
+
+                        <img
+                            src="../images/hero/b.png"
+                            alt="لبان"
+                        >
+
+                    </div>
+
+
+                    <div class="product-info">
+
+                        <span>
+                            BUBBLE GUM
+                        </span>
+
+                        <h2>
+                            لبان
+                        </h2>
+
+                        <strong>
+                            35 <small>EGP</small>
+                        </strong>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <footer>
+
+        <img
+            src="../images/logo.png"
+            alt="Hamdy Ice"
+        >
+
+        <p>
+            © 2026 Hamdy Ice — Ice Cream for all
+        </p>
+
+    </footer>
+
+<script src="../js/menu.js"></script>
+<!-- =========================
+     PRODUCT DETAILS MODAL
+========================= -->
+
+<div class="product-modal" id="productModal">
+
+    <div class="modal-overlay"></div>
+
+    <div class="modal-box">
+
+        <button class="modal-close" id="modalClose">
+            ×
+        </button>
+
+
+        <div class="modal-image">
+
+            <img
+                id="modalProductImage"
+                src=""
+                alt=""
+            >
+
+        </div>
+
+
+        <div class="modal-content">
+
+            <span id="modalProductEnglish">
+                FLAVOR
+            </span>
+
+            <h2 id="modalProductName">
+                اسم النكهة
+            </h2>
+
+            <p id="modalProductDescription">
+                نكهة مميزة من حمدي آيس معمولة عشان تخلي كل لحظة أحلى.
+            </p>
+
+
+            <div class="modal-prices">
+
+                <div class="modal-price">
+
+                    <span>
+                        SMALL
+                    </span>
+
+                    <strong id="modalSmallPrice">
+                        20
+                    </strong>
+
+                    <small>
+                        EGP
+                    </small>
+
+                </div>
+
+
+                <div class="modal-price featured">
+
+                    <span>
+                        LARGE
+                    </span>
+
+                    <strong id="modalLargePrice">
+                        35
+                    </strong>
+
+                    <small>
+                        EGP
+                    </small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+</body>
+
+</html>
