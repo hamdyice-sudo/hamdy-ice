@@ -178,20 +178,48 @@
             <strong>الحالية.</strong>
         </h2>
 
-        <div class="no-offers">
+        <div class="offers-grid">
 
-            <div class="no-offers-icon">
-                🍦
+            <div class="offer-card">
+                <span class="offer-badge">📦 عرض المستوى العالي</span>
+
+                <h3>
+                    كرتونة الآيس كريم
+                </h3>
+
+                <p>
+                    2 جالون = 6 لتر
+                </p>
+
+                <div class="offer-price">
+                    400 <small>جنيه فقط</small>
+                </div>
+
+                <button class="offer-btn" data-offer-type="basic" data-offer-price="400">
+    اطلب العرض
+</button>
             </div>
 
-            <h3>
-                لا توجد عروض حالية
-            </h3>
 
-            <p>
-                مفيش عروض متاحة حاليًا،
-                لكن تابعنا عشان متفوتش أي عرض جديد من حمدي آيس.
-            </p>
+            <div class="offer-card premium-offer">
+                <span class="offer-badge">👑 PREMIUM</span>
+
+                <h3>
+                    كرتونة المستوى الأعلى
+                </h3>
+
+                <p>
+                    2 جالون = 6 لتر
+                </p>
+
+                <div class="offer-price">
+                    500 <small>جنيه فقط</small>
+                </div>
+
+                <button class="offer-btn" data-offer-type="premium" data-offer-price="500">
+    اطلب العرض
+</button>
+            </div>
 
         </div>
 
@@ -336,6 +364,237 @@
     </div>
 
 </section>
+<!-- =========================
+     OFFER FLAVOR MODAL
+========================= -->
+
+<div class="flavor-modal" id="offerFlavorModal">
+
+    <div class="flavor-modal-content">
+
+        <button
+            class="close-flavor-modal"
+            id="closeOfferFlavorModal"
+            type="button">
+            ×
+        </button>
+
+        <span class="modal-label">
+            HAMDY ICE
+        </span>
+
+        <h2>
+            اختار نكهتك
+        </h2>
+
+        <p id="offerFlavorDescription">
+            اختار النكهة المفضلة للعرض
+        </p>
+
+        <div
+            class="flavor-selection"
+            id="offerFlavorSelection">
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =========================
+     OFFER CART
+========================= -->
+
+<div
+    class="cart-overlay"
+    id="offerCartOverlay">
+</div>
+
+<aside
+    class="cart-panel"
+    id="offerCartPanel">
+
+    <div class="cart-header">
+
+        <div>
+
+            <span class="cart-kicker">
+                YOUR ORDER
+            </span>
+
+            <h2>
+                🛒 سلة الطلب
+            </h2>
+
+        </div>
+
+        <button
+            type="button"
+            class="cart-close-btn"
+            id="offerCartCloseBtn">
+            ×
+        </button>
+
+    </div>
+
+
+    <div
+        class="cart-items"
+        id="offerCartItems">
+
+        <div class="cart-empty">
+
+            <div class="cart-empty-icon">
+                🛒
+            </div>
+
+            <h3>
+                السلة فارغة
+            </h3>
+
+            <p>
+                اختار العرض والنكهة لإضافة طلبك هنا.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="cart-footer">
+
+        <div class="cart-customer-info">
+
+            <div class="cart-form-group">
+
+                <label for="offerCustomerName">
+                    الاسم
+                </label>
+
+                <input
+                    type="text"
+                    id="offerCustomerName"
+                    placeholder="اكتب اسمك">
+
+            </div>
+
+
+            <div class="cart-form-group">
+
+                <label for="offerCustomerPhone">
+                    رقم الموبايل
+                </label>
+
+                <input
+                    type="tel"
+                    id="offerCustomerPhone"
+                    placeholder="01xxxxxxxxx">
+
+            </div>
+
+
+            <div class="cart-form-group">
+
+                <label for="offerCustomerAddress">
+                    العنوان
+                </label>
+
+                <textarea
+                    id="offerCustomerAddress"
+                    rows="3"
+                    placeholder="اكتب عنوان التوصيل بالتفصيل"></textarea>
+
+            </div>
+
+
+            <div class="cart-form-group">
+
+                <label for="offerCustomerNotes">
+                    ملاحظات
+                    <span>(اختياري)</span>
+                </label>
+
+                <textarea
+                    id="offerCustomerNotes"
+                    rows="3"
+                    placeholder="أي ملاحظات على الطلب..."></textarea>
+
+            </div>
+
+        </div>
+
+
+        <button
+            type="button"
+            class="confirm-customer-btn"
+            id="offerConfirmCustomerBtn">
+
+            ✓ تأكيد البيانات
+
+        </button>
+
+
+        <div
+            class="customer-confirmed-message"
+            id="offerCustomerConfirmedMessage">
+
+            ✓ تم تأكيد بيانات التوصيل
+
+        </div>
+
+
+        <div class="cart-total-row">
+
+            <span>
+                الإجمالي
+            </span>
+
+            <strong id="offerCartTotal">
+
+                0
+
+                <small>
+                    EGP
+                </small>
+
+            </strong>
+
+        </div>
+
+
+        <button
+            type="button"
+            class="whatsapp-order-btn"
+            id="offerWhatsappOrderBtn"
+            disabled>
+
+            إرسال الطلب عبر WhatsApp
+
+        </button>
+
+    </div>
+
+</aside>
+
+
+<!-- =========================
+     FLOATING CART
+========================= -->
+
+<button
+    type="button"
+    class="floating-cart-btn"
+    id="offerFloatingCartBtn">
+
+    🛒
+
+    <span
+        class="cart-count"
+        id="offerCartCount">
+        0
+    </span>
+
+</button>
 <footer>
     ...
 </footer>
