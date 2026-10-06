@@ -17,20 +17,20 @@ body {
 
     min-height: 100vh;
 
-    color: #321d29;
+    color: #17213B;
 
     background:
         radial-gradient(
             circle at 10% 10%,
-            rgba(255, 190, 215, 0.55),
+            rgba(255, 214, 232, 0.55),
             transparent 28%
         ),
         radial-gradient(
             circle at 90% 30%,
-            rgba(255, 225, 188, 0.45),
+            rgba(103, 201, 242, 0.22),
             transparent 25%
         ),
-        #fff8f4;
+        #FFF0F7;
 }
 
 a {
@@ -49,10 +49,10 @@ button {
 ========================= */
 
 :root {
-    --pink: #b9165b;
-    --pink-light: #ef4d8c;
-    --dark: #321d29;
-    --text-light: #876775;
+    --pink: #F01878;
+    --pink-light: #67C9F2;
+    --dark: #17213B;
+    --text-light: #667085;
     --white: #ffffff;
 }
 
@@ -88,7 +88,7 @@ button {
         blur(18px);
 
     border-bottom:
-        1px solid rgba(80, 30, 50, 0.08);
+        1px solid rgba(23, 33, 59, 0.08);
 }
 
 
@@ -109,9 +109,9 @@ button {
 
     background: white;
 
-    border: 1px solid rgba(80, 30, 50, 0.08);
+    border: 1px solid rgba(23, 33, 59, 0.08);
 
-    color: #684858;
+    color: #667085;
 
     font-size: 11px;
 
@@ -124,12 +124,12 @@ button {
     color: var(--pink);
 
     border-color:
-        rgba(185, 22, 91, 0.3);
+        rgba(240, 24, 120, 0.3);
 
     transform: translateY(-2px);
 
     box-shadow:
-        0 10px 22px rgba(70, 25, 45, 0.07);
+        0 10px 22px rgba(23, 33, 59, 0.07);
 }
 
 
@@ -178,7 +178,7 @@ button {
 .menu-logo small {
     margin-top: 5px;
 
-    color: #8d6878;
+    color: #667085;
 
     font-size: 8px;
 }
@@ -281,11 +281,11 @@ button {
 
     border-radius: 999px;
 
-    border: 1px solid #eadde2;
+    border: 1px solid #FFD6E8;
 
     background: rgba(255, 255, 255, 0.82);
 
-    color: #765565;
+    color: #667085;
 
     font-size: 12px;
 
@@ -315,7 +315,7 @@ button {
         );
 
     box-shadow:
-        0 12px 25px rgba(185, 22, 91, 0.22);
+        0 12px 25px rgba(240, 24, 120, 0.22);
 }
 
 
@@ -351,7 +351,7 @@ button {
         1px solid rgba(100, 40, 65, 0.08);
 
     box-shadow:
-        0 12px 35px rgba(70, 25, 45, 0.06);
+        0 12px 35px rgba(23, 33, 59, 0.06);
 
     transition:
         transform 0.35s ease,
@@ -363,7 +363,7 @@ button {
         translateY(-10px);
 
     box-shadow:
-        0 25px 55px rgba(70, 25, 45, 0.14);
+        0 25px 55px rgba(23, 33, 59, 0.14);
 }
 
 
@@ -388,8 +388,8 @@ button {
         radial-gradient(
             circle,
             #ffffff 0%,
-            #ffe8f0 55%,
-            #ffd5e3 100%
+            #BDEFFF 55%,
+            #BDEFFF 100%
         );
 }
 
@@ -424,7 +424,7 @@ button {
     filter:
         drop-shadow(
             0 22px 18px
-            rgba(65, 20, 40, 0.16)
+            rgba(23, 33, 59, 0.16)
         );
 
     transition:
@@ -448,7 +448,7 @@ button {
 }
 
 .product-info > span {
-    color: #a17b8c;
+    color: #667085;
 
     font-size: 9px;
 
@@ -474,7 +474,7 @@ button {
 }
 
 .product-info > strong small {
-    color: #987582;
+    color: #667085;
 
     font-size: 9px;
 }
@@ -497,7 +497,7 @@ footer {
 
     background: var(--dark);
 
-    color: #d8b9c7;
+    color: #BDEFFF;
 
     font-size: 11px;
 }
@@ -648,9 +648,9 @@ footer img {
 
     border-radius: 14px;
 
-    background: #fff4f8;
+    background: #FFF0F7;
 
-    border: 1px solid rgba(185, 22, 91, 0.08);
+    border: 1px solid rgba(240, 24, 120, 0.08);
 }
 
 .price-option > span {
@@ -658,7 +658,7 @@ footer img {
 
     margin-bottom: 2px;
 
-    color: #947383;
+    color: #667085;
 
     font-size: 8px;
 
@@ -676,7 +676,7 @@ footer img {
 }
 
 .price-option strong small {
-    color: #8f7180;
+    color: #667085;
 
     font-size: 8px;
 }
@@ -727,7 +727,7 @@ footer img {
     inset: 0;
 
     background:
-        rgba(38, 15, 27, 0.58);
+        rgba(23, 33, 59, 0.58);
 
     backdrop-filter:
         blur(10px);
@@ -758,12 +758,12 @@ footer img {
     background:
         linear-gradient(
             135deg,
-            #fffdfb,
-            #fff3f7
+            #FFFFFF,
+            #FFF0F7
         );
 
     box-shadow:
-        0 35px 90px rgba(32, 10, 22, 0.28);
+        0 35px 90px rgba(23, 33, 59, 0.28);
 
     transform:
         translateY(25px)
@@ -800,7 +800,7 @@ footer img {
 
     background: rgba(255,255,255,0.85);
 
-    color: #6d4254;
+    color: #667085;
 
     font-size: 28px;
 
@@ -843,8 +843,8 @@ footer img {
         radial-gradient(
             circle at center,
             #ffffff 0%,
-            #ffe8f1 58%,
-            #ffd7e5 100%
+            #BDEFFF 58%,
+            #BDEFFF 100%
         );
 }
 
@@ -879,7 +879,7 @@ footer img {
     filter:
         drop-shadow(
             0 25px 25px
-            rgba(70, 20, 45, 0.17)
+            rgba(23, 33, 59, 0.17)
         );
 
     animation:
@@ -971,7 +971,7 @@ footer img {
 
     border:
         1px solid
-        rgba(185,22,91,0.08);
+        rgba(240,24,120,0.08);
 }
 
 .modal-price.featured {
@@ -987,13 +987,13 @@ footer img {
 
     box-shadow:
         0 12px 25px
-        rgba(185,22,91,0.2);
+        rgba(240,24,120,0.2);
 }
 
 .modal-price span {
     display: block;
 
-    color: #9a7a88;
+    color: #667085;
 
     font-size: 9px;
 
@@ -1013,7 +1013,7 @@ footer img {
 
 .modal-price small {
     color:
-        #92717f;
+        #667085;
 
     font-size: 8px;
 }

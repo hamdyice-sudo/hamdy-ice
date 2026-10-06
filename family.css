@@ -17,20 +17,20 @@ body {
 
     min-height: 100vh;
 
-    color: #321d29;
+    color: #17213B;
 
     background:
         radial-gradient(
             circle at 15% 15%,
-            rgba(255, 190, 215, 0.55),
+            rgba(255, 214, 232, 0.55),
             transparent 28%
         ),
         radial-gradient(
             circle at 85% 25%,
-            rgba(255, 220, 180, 0.45),
+            rgba(103, 201, 242, 0.22),
             transparent 25%
         ),
-        #fff8f4;
+        #FFF0F7;
 }
 
 a {
@@ -44,11 +44,11 @@ a {
 ========================= */
 
 :root {
-    --pink: #b9165b;
-    --pink-light: #ef4d8c;
-    --gold: #c48724;
-    --dark: #321d29;
-    --text: #806473;
+    --pink: #F01878;
+    --pink-light: #67C9F2;
+    --gold: #67C9F2;
+    --dark: #17213B;
+    --text: #667085;
     --white: #ffffff;
 }
 
@@ -81,7 +81,7 @@ a {
     backdrop-filter: blur(18px);
 
     border-bottom:
-        1px solid rgba(80, 30, 50, 0.08);
+        1px solid rgba(23, 33, 59, 0.08);
 }
 
 
@@ -96,9 +96,9 @@ a {
 
     background: white;
 
-    border: 1px solid rgba(80, 30, 50, 0.08);
+    border: 1px solid rgba(23, 33, 59, 0.08);
 
-    color: #684858;
+    color: #667085;
 
     font-size: 11px;
 
@@ -161,7 +161,7 @@ a {
 .family-logo-text small {
     margin-top: 5px;
 
-    color: #8d6878;
+    color: #667085;
 
     font-size: 8px;
 }
@@ -276,7 +276,7 @@ a {
         linear-gradient(
             145deg,
             #ffffff,
-            #fae8f0
+            #FFF0F7
         );
 
     border:
@@ -292,7 +292,7 @@ a {
         linear-gradient(
             145deg,
             #fffdf8,
-            #f7ead3
+            #BDEFFF
         );
 }
 
@@ -313,14 +313,14 @@ a {
     border-radius: 50%;
 
     background:
-        rgba(185, 22, 91, 0.10);
+        rgba(240, 24, 120, 0.10);
 
     filter: blur(20px);
 }
 
 .family-card.premium::before {
     background:
-        rgba(196, 135, 36, 0.13);
+        rgba(103, 201, 242, 0.13);
 }
 
 
@@ -358,7 +358,7 @@ a {
     filter:
         drop-shadow(
             0 25px 20px
-            rgba(60, 20, 40, 0.18)
+            rgba(23, 33, 59, 0.18)
         );
 
     transition:
@@ -389,12 +389,12 @@ a {
     background:
         linear-gradient(
             135deg,
-            #f7a5c6,
-            #ffcbdc
+            #67C9F2,
+            #BDEFFF
         );
 
     border:
-        3px solid #eb91b7;
+        3px solid #67C9F2;
 
     box-shadow:
         inset 0 3px 5px rgba(255,255,255,0.75);
@@ -430,19 +430,19 @@ a {
     background:
         linear-gradient(
             90deg,
-            #f5c8d8,
+            #BDEFFF,
             #ffffff 48%,
-            #f2c3d5
+            #BDEFFF
         );
 
     border:
-        1px solid #e1aac2;
+        1px solid #67C9F2;
 
     color: var(--pink);
 
     box-shadow:
-        inset 10px 0 15px rgba(185, 22, 91, 0.04),
-        inset -10px 0 15px rgba(185, 22, 91, 0.04);
+        inset 10px 0 15px rgba(240, 24, 120, 0.04),
+        inset -10px 0 15px rgba(240, 24, 120, 0.04);
 }
 
 .tub-body span {
@@ -462,7 +462,7 @@ a {
 
     font-size: 8px;
 
-    color: #815b6d;
+    color: #667085;
 }
 
 
@@ -472,11 +472,11 @@ a {
     background:
         linear-gradient(
             135deg,
-            #e7b95b,
-            #f7d995
+            #67C9F2,
+            #BDEFFF
         );
 
-    border-color: #d7a640;
+    border-color: #67C9F2;
 }
 
 .family-card.premium .tub-body {
@@ -485,12 +485,12 @@ a {
     background:
         linear-gradient(
             90deg,
-            #f2dfb4,
-            #fffaf0 48%,
-            #ecd9ab
+            #BDEFFF,
+            #F7FCFF 48%,
+            #BDEFFF
         );
 
-    border-color: #d9bd79;
+    border-color: #67C9F2;
 }
 
 
@@ -565,19 +565,19 @@ a {
         rgba(255,255,255,0.82);
 
     border:
-        1px solid rgba(185,22,91,0.08);
+        1px solid rgba(240,24,120,0.08);
 }
 
 .family-card.premium
 .pack-prices > div {
     border-color:
-        rgba(196,135,36,0.12);
+        rgba(103,201,242,0.12);
 }
 
 .pack-prices span {
     display: block;
 
-    color: #927181;
+    color: #667085;
 
     font-size: 8px;
 
@@ -604,7 +604,7 @@ a {
 .pack-prices small {
     font-size: 8px;
 
-    color: #927181;
+    color: #667085;
 }
 
 
@@ -763,7 +763,7 @@ a {
 
     padding: 20px;
 
-    background: rgba(50, 29, 41, 0.6);
+    background: rgba(23, 33, 59, 0.60);
     backdrop-filter: blur(10px);
 
     opacity: 0;
@@ -790,9 +790,9 @@ a {
 
     border-radius: 28px;
 
-    background: #fff8f4;
+    background: #FFF0F7;
 
-    box-shadow: 0 30px 90px rgba(50, 29, 41, 0.3);
+    box-shadow: 0 30px 90px rgba(23, 33, 59, 0.30);
 
     transform: translateY(25px) scale(0.96);
     transition: transform 0.3s ease;
@@ -813,8 +813,8 @@ a {
     border: none;
     border-radius: 50%;
 
-    background: #f7dce7;
-    color: #d93477;
+    background: #FFD6E8;
+    color: #F01878;
 
     font-size: 25px;
     font-weight: 700;
@@ -825,7 +825,7 @@ a {
 }
 
 .close-flavor-modal:hover {
-    background: #ef4d8c;
+    background: #67C9F2;
     color: white;
     transform: rotate(90deg);
 }
@@ -834,7 +834,7 @@ a {
     display: block;
     margin-bottom: 8px;
 
-    color: #ef4d8c;
+    color: #67C9F2;
 
     font-size: 11px;
     font-weight: 900;
@@ -844,14 +844,14 @@ a {
 .flavor-modal-content h2 {
     margin-bottom: 8px;
 
-    color: #321d29;
+    color: #17213B;
     font-size: 30px;
 }
 
 .modal-subtitle {
     margin-bottom: 25px;
 
-    color: #795665;
+    color: #667085;
     font-size: 14px;
 }
 
@@ -868,7 +868,7 @@ a {
     border-radius: 14px;
 
     background: white;
-    color: #684858;
+    color: #667085;
 
     font-family: inherit;
     font-size: 14px;
@@ -880,10 +880,10 @@ a {
 }
 
 .flavor-selection button:hover {
-    border-color: #ef4d8c;
-    color: #ef4d8c;
+    border-color: #67C9F2;
+    color: #67C9F2;
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(239, 77, 140, 0.12);
+    box-shadow: 0 8px 20px rgba(103, 201, 242, 0.12);
 }
 
 .confirm-flavors-btn {
@@ -894,7 +894,7 @@ a {
     border: none;
     border-radius: 14px;
 
-    background: linear-gradient(135deg, #ef4d8c, #d93477);
+    background: linear-gradient(135deg, #67C9F2, #F01878);
     color: white;
 
     font-family: inherit;
@@ -908,21 +908,21 @@ a {
 
 .confirm-flavors-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 12px 28px rgba(239, 77, 140, 0.28);
+    box-shadow: 0 12px 28px rgba(103, 201, 242, 0.28);
 }
 /* ==========================================
    SELECTED FLAVOR
 ========================================== */
 
 .flavor-selection button.selected {
-    background: linear-gradient(135deg, #ef4d8c, #d93477);
-    border-color: #ef4d8c;
+    background: linear-gradient(135deg, #67C9F2, #F01878);
+    border-color: #67C9F2;
     color: white;
 
     transform: translateY(-2px);
 
     box-shadow:
-        0 8px 20px rgba(239, 77, 140, 0.25);
+        0 8px 20px rgba(103, 201, 242, 0.25);
 }
 .flavor-selection button {
     -webkit-tap-highlight-color: transparent;
@@ -930,15 +930,15 @@ a {
 }
 
 .flavor-selection button.selected {
-    background: linear-gradient(135deg, #ef4d8c, #d93477);
-    border-color: #ef4d8c;
+    background: linear-gradient(135deg, #67C9F2, #F01878);
+    border-color: #67C9F2;
     color: white;
 
     transform: translateY(-2px);
 
 
     box-shadow:
-        0 8px 20px rgba(239, 77, 140, 0.25);
+        0 8px 20px rgba(103, 201, 242, 0.25);
 }
 /* ==========================================
    SELECTED FLAVOR DISPLAY
@@ -950,7 +950,7 @@ a {
 
     border-radius: 12px;
 
-    background: rgba(239, 77, 140, 0.07);
+    background: rgba(103, 201, 242, 0.07);
 
     color: #8a6877;
 
@@ -963,8 +963,8 @@ a {
 }
 
 .selected-flavor.has-selection {
-    background: rgba(239, 77, 140, 0.12);
-    color: #d93477;
+    background: rgba(103, 201, 242, 0.12);
+    color: #F01878;
 }
 /* ==========================================
    PACK TYPE MODAL
@@ -982,7 +982,7 @@ a {
 
     padding: 20px;
 
-    background: rgba(50, 29, 41, 0.6);
+    background: rgba(23, 33, 59, 0.60);
     backdrop-filter: blur(10px);
 
     opacity: 0;
@@ -1009,10 +1009,10 @@ a {
 
     border-radius: 28px;
 
-    background: #fff8f4;
+    background: #FFF0F7;
 
     box-shadow:
-        0 30px 90px rgba(50, 29, 41, 0.3);
+        0 30px 90px rgba(23, 33, 59, 0.30);
 
     transform: translateY(25px) scale(0.96);
 
@@ -1035,8 +1035,8 @@ a {
     border: none;
     border-radius: 50%;
 
-    background: #f7dce7;
-    color: #d93477;
+    background: #FFD6E8;
+    color: #F01878;
 
     font-size: 25px;
     font-weight: 700;
@@ -1047,7 +1047,7 @@ a {
 }
 
 .close-pack-type:hover {
-    background: #ef4d8c;
+    background: #67C9F2;
     color: white;
 
     transform: rotate(90deg);
@@ -1056,7 +1056,7 @@ a {
 .pack-type-content h2 {
     margin-bottom: 8px;
 
-    color: #321d29;
+    color: #17213B;
 
     font-size: 30px;
 }
@@ -1096,7 +1096,7 @@ a {
 
 
 .pack-type-option strong {
-    color: #d93477;
+    color: #F01878;
 
     font-size: 13px;
     letter-spacing: 1px;
@@ -1105,7 +1105,7 @@ a {
 .pack-type-option span {
     margin-top: 10px;
 
-    color: #795665;
+    color: #667085;
 
     font-size: 14px;
 }
@@ -1113,7 +1113,7 @@ a {
 .pack-type-option b {
     margin-top: 12px;
 
-    color: #321d29;
+    color: #17213B;
 
     font-size: 20px;
 }
@@ -1135,7 +1135,7 @@ a {
     border: none;
     border-radius: 16px;
 
-    background: linear-gradient(135deg, #ef4d8c, #d93477);
+    background: linear-gradient(135deg, #67C9F2, #F01878);
     color: #ffffff;
 
     font-family: inherit;
@@ -1144,7 +1144,7 @@ a {
 
     cursor: pointer;
 
-    box-shadow: 0 12px 30px rgba(239, 77, 140, 0.25);
+    box-shadow: 0 12px 30px rgba(103, 201, 242, 0.25);
 
     transition: 0.25s ease;
 }
@@ -1191,7 +1191,7 @@ a {
     border-radius: 16px;
 
     background: #ffffff;
-    color: #684858;
+    color: #667085;
 
     font-family: inherit;
     cursor: pointer;
@@ -1211,7 +1211,7 @@ a {
 
 .pack-price-option strong {
     font-size: 22px;
-    color: #321d29;
+    color: #17213B;
 }
 
 .pack-price-option small {
@@ -1222,15 +1222,15 @@ pointer-events: auto;
 
 .pack-price-option:hover {
     transform: translateY(-3px);
-    border-color: #ef4d8c;
-    box-shadow: 0 8px 20px rgba(239, 77, 140, 0.12);
+    border-color: #67C9F2;
+    box-shadow: 0 8px 20px rgba(103, 201, 242, 0.12);
 }
 
 .pack-price-option.active {
-    background: linear-gradient(135deg, #ef4d8c, #d93477);
-    border-color: #ef4d8c;
+    background: linear-gradient(135deg, #67C9F2, #F01878);
+    border-color: #67C9F2;
     color: white;
-    box-shadow: 0 10px 25px rgba(239, 77, 140, 0.22);
+    box-shadow: 0 10px 25px rgba(103, 201, 242, 0.22);
 }
 
 .pack-price-option.active strong {
@@ -1273,7 +1273,7 @@ pointer-events: auto;
     border-radius: 20px !important;
 
     background: #ffffff !important;
-    color: #684858 !important;
+    color: #667085 !important;
 
     font-family: inherit !important;
     cursor: pointer !important;
@@ -1284,24 +1284,24 @@ pointer-events: auto;
 }
 
 .pack-type-option strong {
-    color: #ef4d8c !important;
+    color: #67C9F2 !important;
     font-size: 14px !important;
 }
 
 .pack-type-option span {
-    color: #795665 !important;
+    color: #667085 !important;
     font-size: 14px !important;
 }
 
 .pack-type-option b {
-    color: #321d29 !important;
+    color: #17213B !important;
     font-size: 22px !important;
 }
 
 .pack-type-option:hover {
     transform: translateY(-4px);
-    border-color: #ef4d8c !important;
-    box-shadow: 0 12px 28px rgba(239, 77, 140, 0.15);
+    border-color: #67C9F2 !important;
+    box-shadow: 0 12px 28px rgba(103, 201, 242, 0.15);
 }
 /* ==========================================
    REMOVE FLAVOR BUTTON
@@ -1321,8 +1321,8 @@ pointer-events: auto;
     border: none;
     border-radius: 8px;
 
-    background: #f5dbe5;
-    color: #d93477;
+    background: #FFD6E8;
+    color: #F01878;
 
     font-family: inherit;
     font-size: 11px;
@@ -1334,7 +1334,7 @@ pointer-events: auto;
 }
 
 .remove-flavor-btn:hover {
-    background: #d93477;
+    background: #F01878;
     color: white;
 }
 /* ==========================================
@@ -1347,11 +1347,11 @@ pointer-events: auto;
 
     padding: 10px 16px;
 
-    border: 1px solid #f0cbd8;
+    border: 1px solid #FFD6E8;
     border-radius: 12px;
 
-    background: #fff5f8;
-    color: #d93477;
+    background: #FFF0F7;
+    color: #F01878;
 
     font-family: inherit;
     font-size: 12px;
@@ -1363,9 +1363,9 @@ pointer-events: auto;
 }
 
 .remove-family-pack-btn:hover {
-    background: #d93477;
+    background: #F01878;
     color: white;
-    border-color: #d93477;
+    border-color: #F01878;
 }
 
 /* ==========================================
@@ -1381,7 +1381,7 @@ pointer-events: auto;
 
     margin-bottom: 12px;
 
-    color: #684858;
+    color: #667085;
 
     font-size: 14px;
     font-weight: 800;
@@ -1420,24 +1420,24 @@ pointer-events: auto;
 }
 
 .flavor-type-btn strong {
-    color: #684858;
+    color: #667085;
     font-size: 14px;
 }
 
 .flavor-type-btn small {
-    color: #a67d8d;
+    color: #667085;
     font-size: 11px;
 }
 
 .flavor-type-btn:hover {
     transform: translateY(-2px);
-    border-color: #ef4d8c;
+    border-color: #67C9F2;
 }
 
 .flavor-type-btn.active {
-    background: linear-gradient(135deg, #ef4d8c, #d93477);
-    border-color: #ef4d8c;
-    box-shadow: 0 10px 22px rgba(239, 77, 140, 0.22);
+    background: linear-gradient(135deg, #67C9F2, #F01878);
+    border-color: #67C9F2;
+    box-shadow: 0 10px 22px rgba(103, 201, 242, 0.22);
 }
 
 .flavor-type-btn.active strong,
@@ -1451,7 +1451,7 @@ pointer-events: auto;
     padding: 12px 18px;
     border: none;
     border-radius: 12px;
-    background: #d93477;
+    background: #F01878;
     color: white;
     font-family: inherit;
     font-size: 13px;
@@ -1462,7 +1462,7 @@ pointer-events: auto;
 
 .add-to-cart-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(217, 52, 119, 0.25);
+    box-shadow: 0 8px 20px rgba(240, 24, 120, 0.25);
 }
 /* ==========================================
    CART
@@ -1473,7 +1473,7 @@ pointer-events: auto;
     inset: 0;
     z-index: 9998;
 
-    background: rgba(30, 15, 24, 0.45);
+    background: rgba(23, 33, 59, 0.45);
     backdrop-filter: blur(4px);
 
     opacity: 0;
@@ -1509,7 +1509,7 @@ pointer-events: auto;
 
     background: #fffafc;
 
-    box-shadow: -20px 0 60px rgba(50, 20, 40, 0.18);
+    box-shadow: -20px 0 60px rgba(23, 33, 59, 0.18);
 
     transform: translateX(105%);
     transition: transform 0.4s cubic-bezier(.22,.61,.36,1);
@@ -1537,7 +1537,7 @@ pointer-events: auto;
 
     background: #ffffff;
 
-    border-bottom: 1px solid #f1dce4;
+    border-bottom: 1px solid #FFD6E8;
 }
 
 .cart-kicker {
@@ -1545,7 +1545,7 @@ pointer-events: auto;
 
     margin-bottom: 4px;
 
-    color: #d93477;
+    color: #F01878;
 
     font-size: 9px;
     font-weight: 900;
@@ -1556,7 +1556,7 @@ pointer-events: auto;
 .cart-header h2 {
     margin: 0;
 
-    color: #321d29;
+    color: #17213B;
 
     font-size: 23px;
     font-weight: 900;
@@ -1571,8 +1571,8 @@ pointer-events: auto;
     border: none;
     border-radius: 50%;
 
-    background: #fff0f5;
-    color: #d93477;
+    background: #FFF0F7;
+    color: #F01878;
 
     font-size: 24px;
     line-height: 1;
@@ -1583,7 +1583,7 @@ pointer-events: auto;
 }
 
 .cart-close-btn:hover {
-    background: #d93477;
+    background: #F01878;
     color: #ffffff;
 
     transform: rotate(90deg);
@@ -1609,7 +1609,7 @@ pointer-events: auto;
 }
 
 .cart-items::-webkit-scrollbar-thumb {
-    background: #e8c5d4;
+    background: #BDEFFF;
     border-radius: 20px;
 }
 
@@ -1628,12 +1628,12 @@ pointer-events: auto;
     margin-bottom: 12px;
     padding: 15px;
 
-    border: 1px solid #f0dce4;
+    border: 1px solid #FFD6E8;
     border-radius: 16px;
 
     background: #ffffff;
 
-    box-shadow: 0 5px 18px rgba(80, 25, 50, 0.05);
+    box-shadow: 0 5px 18px rgba(23, 33, 59, 0.05);
 }
 
 .cart-item:last-child {
@@ -1650,7 +1650,7 @@ pointer-events: auto;
 
     margin-bottom: 6px;
 
-    color: #321d29;
+    color: #17213B;
 
     font-size: 13px;
     font-weight: 900;
@@ -1661,7 +1661,7 @@ pointer-events: auto;
 .cart-item-info p {
     margin: 0 0 7px;
 
-    color: #806473;
+    color: #667085;
 
     font-size: 11px;
 }
@@ -1673,8 +1673,8 @@ pointer-events: auto;
 
     border-radius: 7px;
 
-    background: #fff0f5;
-    color: #d93477;
+    background: #FFF0F7;
+    color: #F01878;
 
     font-size: 9px;
     font-weight: 800;
@@ -1691,7 +1691,7 @@ pointer-events: auto;
 }
 
 .cart-item-side > strong {
-    color: #d93477;
+    color: #F01878;
 
     font-size: 17px;
     font-weight: 900;
@@ -1711,8 +1711,8 @@ pointer-events: auto;
     border: none;
     border-radius: 8px;
 
-    background: #fff0f5;
-    color: #d93477;
+    background: #FFF0F7;
+    color: #F01878;
 
     font-family: inherit;
     font-size: 10px;
@@ -1724,7 +1724,7 @@ pointer-events: auto;
 }
 
 .cart-remove-btn:hover {
-    background: #d93477;
+    background: #F01878;
     color: #ffffff;
 }
 
@@ -1743,7 +1743,7 @@ pointer-events: auto;
 
     text-align: center;
 
-    color: #806473;
+    color: #667085;
 }
 
 .cart-empty-icon {
@@ -1758,7 +1758,7 @@ pointer-events: auto;
 
     border-radius: 50%;
 
-    background: #fff0f5;
+    background: #FFF0F7;
 
     font-size: 30px;
 }
@@ -1766,7 +1766,7 @@ pointer-events: auto;
 .cart-empty h3 {
     margin: 0 0 7px;
 
-    color: #321d29;
+    color: #17213B;
 
     font-size: 17px;
     font-weight: 900;
@@ -1777,7 +1777,7 @@ pointer-events: auto;
 
     margin: 0;
 
-    color: #927181;
+    color: #667085;
 
     font-size: 11px;
     line-height: 1.8;
@@ -1799,7 +1799,7 @@ pointer-events: auto;
 
     background: #ffffff;
 
-    border-top: 1px solid #f1dce4;
+    border-top: 1px solid #FFD6E8;
 }
 
 .cart-footer::-webkit-scrollbar {
@@ -1807,7 +1807,7 @@ pointer-events: auto;
 }
 
 .cart-footer::-webkit-scrollbar-thumb {
-    background: #e8c5d4;
+    background: #BDEFFF;
     border-radius: 20px;
 }
 
@@ -1833,7 +1833,7 @@ pointer-events: auto;
 
     margin-bottom: 5px;
 
-    color: #44313a;
+    color: #17213B;
 
     font-size: 10px;
     font-weight: 900;
@@ -1854,13 +1854,13 @@ pointer-events: auto;
 
     padding: 10px 12px;
 
-    border: 1px solid #ead7df;
+    border: 1px solid #FFD6E8;
     border-radius: 10px;
 
     outline: none;
 
     background: #fffafc;
-    color: #321d29;
+    color: #17213B;
 
     font-family: inherit;
     font-size: 11px;
@@ -1875,11 +1875,11 @@ pointer-events: auto;
 
 .cart-form-group input:focus,
 .cart-form-group textarea:focus {
-    border-color: #d93477;
+    border-color: #F01878;
 
     background: #ffffff;
 
-    box-shadow: 0 0 0 3px rgba(217, 52, 119, 0.08);
+    box-shadow: 0 0 0 3px rgba(240, 24, 120, 0.08);
 }
 
 .cart-form-group textarea {
@@ -1905,7 +1905,7 @@ pointer-events: auto;
     border: none;
     border-radius: 11px;
 
-    background: #321d29;
+    background: #17213B;
     color: #ffffff;
 
     font-family: inherit;
@@ -1918,7 +1918,7 @@ pointer-events: auto;
 }
 
 .confirm-customer-btn:hover {
-    background: #d93477;
+    background: #F01878;
 
     transform: translateY(-1px);
 }
@@ -1966,16 +1966,16 @@ pointer-events: auto;
     margin-top: 8px;
     padding-top: 13px;
 
-    border-top: 1px solid #f1dce4;
+    border-top: 1px solid #FFD6E8;
 
-    color: #321d29;
+    color: #17213B;
 
     font-size: 14px;
     font-weight: 900;
 }
 
 .cart-total-row strong {
-    color: #d93477;
+    color: #F01878;
 
     font-size: 21px;
     font-weight: 900;
@@ -2055,7 +2055,7 @@ pointer-events: auto;
     border: none;
     border-radius: 50%;
 
-    background: #d93477;
+    background: #F01878;
     color: #ffffff;
 
     font-size: 23px;
@@ -2063,7 +2063,7 @@ pointer-events: auto;
     cursor: pointer;
 
     box-shadow:
-        0 10px 25px rgba(217, 52, 119, 0.30);
+        0 10px 25px rgba(240, 24, 120, 0.30);
 
     transition: 0.25s ease;
 }
